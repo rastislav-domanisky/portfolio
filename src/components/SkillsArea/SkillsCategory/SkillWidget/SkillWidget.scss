@@ -1,0 +1,23 @@
+.SkillWidget {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+
+    .skillWidgetName {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        p {
+            color: #FFF;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+    }
+
+    .skillSubs {
+        width: 100%;
+    }
+}

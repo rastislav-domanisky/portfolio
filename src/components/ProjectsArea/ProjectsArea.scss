@@ -1,0 +1,42 @@
+.ProjectsArea {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+
+    @media (min-width: 600px) {
+        width: 80%;
+    }
+  
+      @media (min-width: 800px) {
+        width: 70%;
+      }
+  
+      @media (min-width: 900px) {
+        width: 700px;
+      }
+}
+
+.loading {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.error {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+}

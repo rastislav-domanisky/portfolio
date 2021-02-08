@@ -1,0 +1,30 @@
+.DownBtn {
+    background-color: #2980B9;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 10px;
+    animation: bounce 1.3s ease-in-out infinite;
+    cursor: pointer;
+    outline: none;
+
+    svg {
+        color: #FFF;
+    }
+
+    @keyframes bounce {
+        0% {
+            transform: translateY(-10px);
+        }
+        50% {
+            transform: translateY(0px);
+        }
+        100% {
+            transform: translateY(-10px);
+        }
+    }
+}

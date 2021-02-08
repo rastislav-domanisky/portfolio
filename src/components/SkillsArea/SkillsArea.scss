@@ -1,0 +1,13 @@
+.SkillsArea {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    @media (min-width: 670px) {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+}

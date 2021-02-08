@@ -1,0 +1,10 @@
+.Avatar {
+    background-color: rgba($color: #FFF, $alpha: 0.2);
+    border-radius: 100%;
+    display: flex;
+    
+    img {
+        object-fit: fill;
+        border-radius: 100%;
+    }
+}

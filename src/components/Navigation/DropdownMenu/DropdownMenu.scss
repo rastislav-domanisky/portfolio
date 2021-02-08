@@ -1,0 +1,27 @@
+.dropdown_menu {
+    width: 100%;
+    background: #2C3E50;
+    position: absolute;
+    z-index: 500;
+    left: 0;
+    top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: toggleIn 0.5s ease-in-out;
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 15px;
+    }
+
+    @keyframes toggleIn {
+        0% {
+            transform: translateY(-100%);
+        }
+        100% {
+            transform: translateY(0px);
+        }
+    }
+}

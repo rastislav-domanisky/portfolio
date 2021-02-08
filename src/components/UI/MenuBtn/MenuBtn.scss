@@ -1,0 +1,19 @@
+.MenuBtn {
+    cursor: pointer;
+    width: 45px;
+    height: 45px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+
+    svg {
+        color: #FFF;
+        width: 32px;
+    }
+
+    @media (min-width: 700px) {
+        display: none;
+    }
+}
