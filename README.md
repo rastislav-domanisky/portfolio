@@ -1,6 +1,6 @@
 # My portfolio
 
-![url](https://rastislav-domanisky.web.app/)
+[https://rastislav-domanisky.web.app/](https://rastislav-domanisky.web.app/)
 
 ### Install
 
