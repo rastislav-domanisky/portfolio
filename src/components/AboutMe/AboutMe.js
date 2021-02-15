@@ -18,6 +18,8 @@ const AboutMe = () => {
             <div className="contentBox">
                 <h2>Certificates</h2>
                 <p>Flutter & Dart to Build iOS & Android Apps [2020]</p>
+                <p>React - (incl Hooks, React Router, Redux) [2020]</p>
+                <p>Vue - (incl Router, Vuex) [2020]</p>
                 <p>CCA Java Level 1 [2020]</p>
                 <p>CCA Java Level 2 [2020]</p>
                 <p>ECDL [2020]</p>
